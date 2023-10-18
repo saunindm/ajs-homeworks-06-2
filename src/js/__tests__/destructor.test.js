@@ -1,4 +1,4 @@
-import extractProps from '../destructor';
+import extractProps1 from '../destructor';
 
 test('destructuring object', () => {
   const character = {
@@ -23,7 +23,7 @@ test('destructuring object', () => {
       }
     ]	
   }
-  const result = extractProps(character);
+  const result = extractProps1(character);
   const expected = [
     {
       id: 8,
